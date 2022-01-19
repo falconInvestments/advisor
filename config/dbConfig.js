@@ -6,3 +6,7 @@ module.exports = {
     DB: 'falcon_advisor_db', // your db name
     dialect: 'postgres',
     }
+
+
+
+    
