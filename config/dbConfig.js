@@ -1,9 +1,9 @@
 // store the configuration secrets of the PG DB here
 module.exports = {
-    HOST: 'falcon-advisor-2.ctg5i8pjew3u.us-east-2.rds.amazonaws.com', // your endpoint
-    USER: 'postgres', // your username
-    PASSWORD: 'Password123', // your password
-    DB: 'falcon_advisor_db', // your db name
+    HOST: 'ec2-3-227-15-75.compute-1.amazonaws.com', // your endpoint
+    USER: 'yonvzitoefcsmr', // your username
+    PASSWORD: '7500f634879beed9486b33b2be3bb2e05ea5a7935b351444a374eb9087fbbc38', // your password
+    DB: 'dda637hs24720g', // your db name
     dialect: 'postgres',
     }
 
