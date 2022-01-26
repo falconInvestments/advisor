@@ -2,6 +2,10 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 5432
 
+// Needed for access from local host
+const cors = require('cors')
+app.use(cors())
+
 // middlewares
 app.use(express.json())
 
